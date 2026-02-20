@@ -1,0 +1,68 @@
+import { Category } from './types';
+
+export const CATEGORIES: Category[] = [
+  {
+    id: 'selfie-close-up',
+    name: 'Selfie Close-Up',
+    colorClass: 'text-blue-400',
+    bgClass: 'bg-blue-500/10',
+    borderClass: 'border-blue-500/20',
+    hoverBorderClass: 'hover:border-blue-500/50',
+  },
+  {
+    id: 'selfie-medium-shot',
+    name: 'Selfie Medium Shot',
+    colorClass: 'text-green-400',
+    bgClass: 'bg-green-500/10',
+    borderClass: 'border-green-500/20',
+    hoverBorderClass: 'hover:border-green-500/50',
+  },
+  {
+    id: 'selfie-full-body',
+    name: 'Selfie Full Body',
+    colorClass: 'text-orange-400',
+    bgClass: 'bg-orange-500/10',
+    borderClass: 'border-orange-500/20',
+    hoverBorderClass: 'hover:border-orange-500/50',
+  },
+  {
+    id: 'mirror-selfie-medium',
+    name: 'Mirror Selfie Medium Body',
+    colorClass: 'text-pink-400',
+    bgClass: 'bg-pink-500/10',
+    borderClass: 'border-pink-500/20',
+    hoverBorderClass: 'hover:border-pink-500/50',
+  },
+  {
+    id: 'mirror-selfie-full',
+    name: 'Mirror Selfie Full Body',
+    colorClass: 'text-purple-400',
+    bgClass: 'bg-purple-500/10',
+    borderClass: 'border-purple-500/20',
+    hoverBorderClass: 'hover:border-purple-500/50',
+  },
+  {
+    id: 'group-selfie',
+    name: 'Group Selfie',
+    colorClass: 'text-cyan-400',
+    bgClass: 'bg-cyan-500/10',
+    borderClass: 'border-cyan-500/20',
+    hoverBorderClass: 'hover:border-cyan-500/50',
+  },
+  {
+    id: 'normal-photo-medium',
+    name: 'Normal Photo Medium Body',
+    colorClass: 'text-red-400',
+    bgClass: 'bg-red-500/10',
+    borderClass: 'border-red-500/20',
+    hoverBorderClass: 'hover:border-red-500/50',
+  },
+  {
+    id: 'normal-photo-full',
+    name: 'Normal Photo Full Body',
+    colorClass: 'text-yellow-400',
+    bgClass: 'bg-yellow-500/10',
+    borderClass: 'border-yellow-500/20',
+    hoverBorderClass: 'hover:border-yellow-500/50',
+  },
+];

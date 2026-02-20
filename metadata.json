@@ -1,0 +1,5 @@
+{
+  "name": "PromptVault",
+  "description": "A modern, minimal web app to store and organize image generation prompts by categories.",
+  "requestFramePermissions": []
+}
