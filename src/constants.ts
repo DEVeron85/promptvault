@@ -65,4 +65,13 @@ export const CATEGORIES: Category[] = [
     borderClass: 'border-yellow-500/20',
     hoverBorderClass: 'hover:border-yellow-500/50',
   },
+  {
+    id: 'image-enhancer',
+    name: 'Image Enhancer',
+    colorClass: 'text-fuchsia-400',
+    bgClass: 'bg-fuchsia-500/10',
+    borderClass: 'border-fuchsia-500/20',
+    hoverBorderClass: 'hover:border-fuchsia-500/50',
+    iconName: 'Wand2',
+  },
 ];

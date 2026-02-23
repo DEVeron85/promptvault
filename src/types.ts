@@ -5,6 +5,7 @@ export interface Category {
   bgClass: string;
   borderClass: string;
   hoverBorderClass: string;
+  iconName?: string;
 }
 
 export interface Prompt {
